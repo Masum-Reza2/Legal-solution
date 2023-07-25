@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme = "light">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,6 +16,7 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
+                        'cp': '#B68C5A',
                     }
                 }
             }
@@ -28,7 +30,49 @@
         }
     </style>
 </head>
-<body>
-    
+
+<body class="max-w-7xl mx-auto">
+    <!-- header scetion -->
+    <header>
+        <!-- navbar -->
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <label tabindex="0" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </label>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                    <li><a>Home</a></li>
+                    <li><a>Services</a></li>
+                    <li><a>Cases</a></li>
+                    <li><a>Blog</a></li>
+                    <li><a>Contact Us</a></li>
+                </ul>
+              </div>
+              <img class="w-1/6" src="./images/business.png" alt="">
+              <a class="btn btn-ghost text-[#414040] md:text-2xl">Justice</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a>Home</a></li>
+                <li><a>Services <i class="fa-solid fa-chevron-right"></i> </a></li>
+                <li><a>Cases <i class="fa-solid fa-chevron-right"></i> </a></li>
+                <li><a>Blog <i class="fa-solid fa-chevron-right"></i> </a></li>
+                <li><a>Contact Us <i class="fa-solid fa-chevron-right"></i> </a></li>
+              </ul>
+            </div>
+            <div class="navbar-end">
+              <a class="btn bg-cp text-white capitalize">Free Consultation</a>
+            </div>
+          </div>
+    </header>
+
+    <!-- main section -->
+    <main></main>
+
+    <!-- footer section -->
+    <footer></footer>
+
 </body>
+
 </html>
